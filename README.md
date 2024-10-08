@@ -8,5 +8,5 @@
 
 #### How to create an component
 ```
-ng generate component nome-do-componente
+ng generate component test-button
 ```
