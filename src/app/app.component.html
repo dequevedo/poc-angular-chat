@@ -55,6 +55,16 @@
     max-width: 9.2rem;
   }
 
+  .chat {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c7b785;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
   .content {
     display: flex;
     justify-content: space-around;
@@ -197,13 +207,8 @@
   </div>
 </main>
 
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
+<div class="chat">
+  <app-test-chatbox></app-test-chatbox>
+</div>
 
 <router-outlet />

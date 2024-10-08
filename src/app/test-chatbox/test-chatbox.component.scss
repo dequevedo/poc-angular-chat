@@ -1,6 +1,6 @@
-app-test-chatbox {
+input {
   padding: 10px 20px;
-  margin: 10px 10px;
+  margin: 0px;
   background-color: #c7b785;
   color: #575347;
   border: solid;
@@ -8,5 +8,13 @@ app-test-chatbox {
   border-radius: 30px 30px 30px 2px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+
   cursor: pointer;
+
+  &::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
 }
